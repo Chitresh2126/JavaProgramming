@@ -7,6 +7,6 @@ public class AreaOfTriangle {
         float high = scanner.nextFloat();
         System.out.println("Enter Base of triangle");
         float base = scanner.nextFloat();
-        System.out.println(new StringBuilder().append("Area of Triangle is ").append((float) ((high * base) / 2)).toString());
+        System.out.println("Area of Triangle is " + (float) ((high * base) / 2));
     }
 }
