@@ -5,6 +5,6 @@ public class PerimeterOfSquare {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a side of Square ");
         int side = scanner.nextInt();
-        System.out.println("Perimeter of Square is " + 4 * side );
+        System.out.println("Perimeter of Square is " + (4 * side ) );
     }
 }
