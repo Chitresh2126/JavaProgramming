@@ -10,7 +10,7 @@ public class NcR_and_NpR {
     {
         int res = 1;
         for (int i = 2; i <= n; i++)
-            res = res * i;
+            res *= i;
         return res;
     }
     static int fact(int n)
