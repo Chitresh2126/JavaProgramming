@@ -7,8 +7,6 @@ public class RichestCustomerWealth1672 {
         System.out.println(maximumWealth(new int[][]{{1,2,3},{1, 2, 3}}));
     }
 
-
-
     public static int maximumWealth(int[][] accounts) {
         int max = Integer.MIN_VALUE;
         for(int[] row:accounts){
