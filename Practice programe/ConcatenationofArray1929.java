@@ -19,14 +19,14 @@ public class ConcatenationofArray1929 {
         System.out.println(Arrays.toString(ans));
     }
 
-    static int[] getConcatenation(int[] ints) {
-        int[] ans = new int[2 * ints.length];
-        for (int i = 0; i < 2 * ints.length ; i++){
-            if(i < ints.length){
-                ans[i] = ints[i];
+    static int[] getConcatenation(int[] nums) {
+        int[] ans = new int[2 * nums.length];
+        for (int i = 0; i < 2 * nums.length ; i++){
+            if(i < nums.length){
+                ans[i] = nums[i];
             }
             else{
-                ans[i] = ints[i - ints.length];
+                ans[i] = nums[i - nums.length];
             }
         }
         return ans;
