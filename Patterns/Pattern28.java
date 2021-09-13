@@ -40,5 +40,20 @@ public class Pattern28 {
             }
             System.out.println();
         }
+        pattern28(5);
+    }
+    //Better approach
+    static void pattern28(int n){
+        for (int row = 0; row< 2 * n; row++){   //for rows
+            int totalColumnsinRow = row>n? 2*n -row: row;  //To find number of column in rows
+            int noOfpaces = n - totalColumnsinRow;  //How many space
+            for (int s = 0; s<noOfpaces; s++){   //loop for printing space
+                System.out.print(" ");
+            }
+            for (int col = 0; col < totalColumnsinRow; col++){  //loop for printing stars
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
